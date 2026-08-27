@@ -14,7 +14,7 @@ Table of content:
 
 
 ## Introduction
-This project contains the code for handling 2 led strips (or x amount with some tweaking), and with it follows some basic lighting effects which can be freely chosen and swapped between. As a standard there is also a rotating mode which switches between two given modes. This can be controlled by the ```InitializeLEDs()``` method in main.
+This project contains the code for handling 2 led strips (or any amount with some tweaking), and with it follows some basic lighting effects which can be freely chosen and swapped between. As a standard there is also a rotating mode which switches between two given modes. This can be controlled by the ```InitializeLEDs()``` method in main.
 
 ## main.cpp
 The two most interesting parts of main.cpp is the setup and loop functions. Setup runs once on startup, and thereafter loop runs continuously.
