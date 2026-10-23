@@ -50,7 +50,6 @@ public:
     Mode parseMode(String);
     void handleAnimation(String);
     ProgressAnimation parseAnimation(String);
-    void printValues();
 
     void resetLEDStrip();
 

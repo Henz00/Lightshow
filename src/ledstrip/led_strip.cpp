@@ -49,10 +49,8 @@ ProgressAnimation LEDStrip::parseAnimation(String animationStr){
   if (animationStr == "instant") return PROGRESS_INSTANT;
   if (animationStr == "fill") return PROGRESS_FILL;
   if (animationStr == "center_out") return PROGRESS_CENTER_OUT;
-}
-
-void LEDStrip::printValues(){
-    /* Implement if needed */
+  
+  return PROGRESS_INSTANT;
 }
 
 void LEDStrip::resetLEDStrip(){

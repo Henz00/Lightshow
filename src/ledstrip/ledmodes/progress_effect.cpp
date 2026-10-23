@@ -92,7 +92,7 @@ static void progressCenterOut(LEDStrip& strip) {
     }
     }
 
-    if (strip.currentLit == strip.lastLit) return;  // 👈 KEY FIX
+    if (strip.currentLit == strip.lastLit) return;
 
     int center = strip.num_leds / 2;
 
@@ -111,5 +111,3 @@ static void progressCenterOut(LEDStrip& strip) {
 
     strip.lastLit = strip.currentLit;
 }
-
-

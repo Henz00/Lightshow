@@ -76,6 +76,7 @@ void loop() {
 
   client.loop();
 
+  // 15 seconds rotation between the two modes
   if (millis() - lastModeUpdate > 15000) {
     lastModeUpdate = millis();
 
