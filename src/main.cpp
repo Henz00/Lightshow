@@ -91,7 +91,6 @@ void loop() {
     }
 
   }
-  
 
   if (millis() - lastLedUpdate > 20) {
     lastLedUpdate = millis();
@@ -205,8 +204,9 @@ void handleCommand(String command){
     LEDLoopRunning = false;
     strip_bottom.resetLEDStrip();
     strip_top.resetLEDStrip();
-  } else if (command == "print"){
-    // todo
+  } else {
+    Serial.print("Unknown command: ");
+    Serial.println(command);
   }
 }
 
